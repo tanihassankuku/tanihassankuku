@@ -1,0 +1,149 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-color: red;
+
+}
+.container{
+	height: 500px;
+	width: 350px;
+	position: absolute;
+	margin: 0;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index:  -1;
+}
+.cat{
+	position: relative;
+	top: 150px;
+	left: 50;
+}
+.face{
+	background-color: blue;
+	height: 90px;
+	width: 150px;
+	border-radius: 30px;
+
+}
+.ear-right,.ear-left{
+	width: 0;
+	height: 0;
+	border-bottom: 50px solid blue;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	position: relative;
+	z-index: -1;
+}
+.ear-right{
+	bottom: 85px;
+	left: 110px;
+	transform: rotate(30deg);
+}
+.ear-left{
+	bottom: 35px;
+	transform: rotate(-30deg);
+}
+.inner1{
+	width: 0;
+	height: 0;
+	border-bottom: 50px solid #d36149;
+	right: 25px;
+	position: relative;
+	border-left: 25px solid transparent;
+}
+.inner2{
+	width: 0;
+	height: 0;
+	border-bottom: 50px solid #d36149;
+	position: relative;
+	border-right: 25px solid transparent;
+
+}
+.eye-left,.eye-right{
+	background-color: #d2873b;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	position: relative;
+
+}
+.eye-left{
+	bottom: 75px;
+	left: 30px;
+
+}
+.eye-right{
+	bottom: 105px;
+	left: 90px;
+}
+.eyeball{
+	background-color:blue;
+	width: 24px;
+	height: 24px;
+	position: relative;
+	border-radius: 50%;
+	top: 3px;
+	left: 3px;
+}
+.nose{
+	width: 0;
+	height: 0;
+	border-top: 8px solid #d2873b;
+	border-left: 7px solid transparent;
+	position: relative;
+	bottom: 110px;
+	left: 68px;
+}
+.l1,.l2{
+	background-color: #d2873b;
+	height: 8px;
+	width: 1px;
+	position: relative;
+}
+.l1{
+	transform: rotate(45deg);
+	right: 4px;
+	bottom: 1.5px;
+
+}
+.l2{
+	transform: rotate(-45deg);
+	left: 3px;
+	bottom: 10px;
+
+}
+.body{
+	background-color: blue;
+	height: 120px;
+	width: 150px;
+	position: relative;
+	left: 30px;
+	bottom: 5px;
+	border-radius: 0 65px 0 0;
+}
+.paw-l,.paw-r{
+	background-color: blue;
+	height: 10px;
+	width: 22px;
+	position: relative;
+	border-radius: 0 0px 10px;
+}
+.paw-l{
+	top: 120px;
+}
+.paw-r{
+	top: 110px;
+	left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
