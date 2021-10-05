@@ -1,0 +1,43 @@
+<body{
+	background-color: gray;
+}
+
+.container{
+	width: 1200px;
+}
+
+.nav{
+	width: 200px;
+	float: left;
+}
+
+.main{
+	width: 1000px;
+	float: right;
+}
+
+.footer{
+	clear: both;
+	margin-top: 0;
+	background-color: blue;
+	height: 100px;
+	color: white;
+	padding-top: 25px;
+}
+.header{
+	background-color: green;
+	text-align: center;
+	color: white;
+	height: 100px;
+	padding-top: 25px;
+}
+li{
+	list-style-type: none;
+}
+a{text-decoration: none;
+
+}
+.header h2{
+	float: right;
+
+}
