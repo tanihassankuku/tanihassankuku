@@ -1,0 +1,16 @@
+#left{
+	background-color: yellow;
+	float: left;
+}
+#right{
+	background-color: aqua;
+	float: right;
+}
+#nane{
+	text-align: center;
+	background-color: blue;
+	height: 150;
+}
+img{
+	border-radius: 50%;
+}
